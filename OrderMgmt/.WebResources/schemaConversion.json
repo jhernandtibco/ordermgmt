@@ -1,0 +1,12 @@
+{"records": [
+    {
+        "jsonSchemaLocation": "/OrderMgmt/Service Descriptors/OrderPOST-Schema.json",
+        "conversionType": "generated",
+        "xsdSchemaTargetNamespace": "/T1589043479114Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/OrderMgmt/Service Descriptors/productmgmt.Process-Product.json",
+        "conversionType": "generated",
+        "xsdSchemaTargetNamespace": "/T1589230133458Converted/JsonSchema"
+    }
+]}

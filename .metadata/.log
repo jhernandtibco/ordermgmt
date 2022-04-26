@@ -1,0 +1,2252 @@
+!SESSION 2022-04-22 11:32:40.161 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -showlocation
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.677
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.708
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.712
+!MESSAGE Both 'com.tibco.bw.it.model' and 'com.tibco.bw.it.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.717
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.718
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.727
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.730
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.733
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.759
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.761
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.762
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:33:09.763
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY org.eclipse.ui 2 0 2022-04-22 11:33:10.506
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:33:10.506
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:33:10.506
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:33:10.506
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.ui 2 0 2022-04-22 11:33:11.037
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:33:11.037
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:33:11.037
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:33:11.037
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.jface 2 0 2022-04-22 11:33:12.502
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-22 11:33:12.502
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(com.tibco.amf.svar.editor.svarRename.command,Rename & update references for SVar,
+		Rename selected Substitution Variable & update the references in the workspace,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b477121,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21d561c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-22 11:33:12.502
+!MESSAGE A conflict occurred for F1:
+Binding(F1,
+	ParameterizedCommand(Command(com.tibco.bw.core.design.process.editor.showHelpViewCommand,Reference Page,
+		Launch Help View,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@752e50c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F1,
+	ParameterizedCommand(Command(com.tibco.xpd.core.help.default.command,Open Default TIBCO Help Content,
+		,
+		Category(com.tibco.xpd.core.help.command.category,TIBCO Help,TIBCO Help Commands.,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2bef33e7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:33:26.538
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:33:26.538
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:33:26.649
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:33:26.650
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:33:26.653
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:33:26.654
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.process.editor 1 0 2022-04-22 11:33:26.656
+!MESSAGE ".com.tibco.bw.rad/BWApplication.launch" file is synchronized.
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:33:26.660
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:33:26.661
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.process.editor 1 0 2022-04-22 11:33:26.688
+!MESSAGE ".com.tibco.bw.rad/runtime.target" file is synchronized.
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:33:27.001
+!MESSAGE Constraint "com.tibco.amf.design.sr.core.internal.validation.constraints.SharedResourceNotInWorkspace" could not find target EMF type "Property."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:33:27.210
+!MESSAGE Constraint "com.tibco.bw.sharedresource.http.design.com.tibco.amf.design.sr.transport.http.ssl.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:33:27.414
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.HasOneStoreConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:33:27.416
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyAliasNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:33:27.418
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyPasswordNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:33:27.420
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.trust.editor.constraint" could not find target EMF type "TrustConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:33:27.487
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLServerConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:33:27.491
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.client.editor.trust.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:33:27.495
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.client.editor.subject.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:33:27.501
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.server.editor.trust.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:33:27.502
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.server.editor.subject.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY com.tibco.xpd.fragments 4 0 2022-04-22 11:33:27.899
+!MESSAGE com.tibco.xpd.fragments.internal.FragmentsManager$5.run(FragmentsManager.java:787) FragmentsManager.initialize(): No root categories found!!!
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:33:28.230
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:33:28.233
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:31.109
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:31.157
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:31.198
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:31.203
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:31.208
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:31.212
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:31.252
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:31.256
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:31.259
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:31.262
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:33.082
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:33.083
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:33.254
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:33.274
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:33.347
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:33.374
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:33.389
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:33.395
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.829
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.833
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.842
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.846
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.853
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.860
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.864
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.866
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.869
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.879
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.882
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.886
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.891
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.895
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.899
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.902
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.908
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.911
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.914
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.922
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.926
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.937
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.941
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.945
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.948
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.951
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.954
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.958
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.963
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:35.967
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY org.eclipse.bpel.validator 1 0 2022-04-22 11:34:39.238
+!MESSAGE Validator Startup 692ms
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.008
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [pick]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.019
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.021
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.068
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [OnMessageStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.069
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.073
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.075
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [OnMessageEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.076
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.081
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.086
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [postOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.087
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.088
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.952
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [Log]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.955
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@58b56ab6 (activityTypeID: bw.generalactivities.log, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.957
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.984
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [Mapper]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.987
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@22b3b40 (activityTypeID: bw.generalactivities.mapper, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:40.990
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.010
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [Log1]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.012
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@6dab69b7 (activityTypeID: bw.generalactivities.log, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.019
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.742
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [pick]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.744
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.746
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.748
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [OnMessageStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.749
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.750
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.751
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [OnMessageEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.753
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.754
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.756
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [postOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.764
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.766
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.780
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [Log]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.781
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@5009746b (activityTypeID: bw.generalactivities.log, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.782
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.803
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [Mapper]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.807
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@5ae8832a (activityTypeID: bw.generalactivities.mapper, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.809
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.821
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [ordermgmt.MainProcess], Activity [Log1]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.822
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@2c3dcea0 (activityTypeID: bw.generalactivities.log, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:34:41.824
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.studio.maven.plugin 1 0 2022-04-22 11:34:43.244
+!MESSAGE Kind:6, Project:OrderMgmt
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.366
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.369
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.373
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.378
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.381
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.384
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.388
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.391
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.394
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.399
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.402
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.405
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.408
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.411
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.416
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.424
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.434
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.438
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.442
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.445
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.454
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.458
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.461
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.465
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.471
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.473
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.476
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.480
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.484
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.488
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.503
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.518
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.521
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.525
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.532
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.539
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.545
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.554
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.557
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.561
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.564
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.566
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.570
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.573
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.582
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.587
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.589
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.592
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.597
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.601
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.604
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.609
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.618
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.621
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.626
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.628
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.633
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.638
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.641
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.647
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.652
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.655
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.661
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.666
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.668
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.671
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.678
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.682
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.685
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.688
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.692
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:34:43.696
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.706
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.710
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.724
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:43.726
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.275
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.311
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.417
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.431
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.442
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.459
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.470
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.487
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.491
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.495
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.500
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.503
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.506
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.508
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.511
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.514
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.518
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.520
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.522
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.525
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.527
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.533
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.536
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.538
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.540
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.543
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.545
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:34:45.549
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-04-22 11:35:03.771
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.equinox.internal.p2.core.Activator.stop() of bundle org.eclipse.equinox.p2.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:891)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1026)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1886)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1761)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:203)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:221)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: BundleContext is no longer valid org.eclipse.equinox.p2.repository_2.5.0.v20201013-0853 [757]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:1027)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:595)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:1057)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:32)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:497)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.remember(AbstractRepositoryManager.java:884)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.stop(AbstractRepositoryManager.java:1075)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.stop(ProvisioningAgent.java:138)
+	at org.eclipse.equinox.internal.p2.core.Activator.unregisterAgent(Activator.java:267)
+	at org.eclipse.equinox.internal.p2.core.Activator.stop(Activator.java:253)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:871)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:863)
+	... 13 more
+Root exception:
+java.lang.IllegalStateException: BundleContext is no longer valid org.eclipse.equinox.p2.repository_2.5.0.v20201013-0853 [757]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:1027)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:595)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:1057)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:32)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:497)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.remember(AbstractRepositoryManager.java:884)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.stop(AbstractRepositoryManager.java:1075)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.stop(ProvisioningAgent.java:138)
+	at org.eclipse.equinox.internal.p2.core.Activator.unregisterAgent(Activator.java:267)
+	at org.eclipse.equinox.internal.p2.core.Activator.stop(Activator.java:253)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:871)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:863)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1026)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1886)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1761)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:203)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:221)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+!SESSION 2022-04-22 11:36:26.347 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -showlocation
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.243
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.248
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.249
+!MESSAGE Both 'com.tibco.bw.it.model' and 'com.tibco.bw.it.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.255
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.257
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.263
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.265
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.267
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.300
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.305
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.307
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-22 11:36:39.311
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY org.eclipse.ui 2 0 2022-04-22 11:36:40.241
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:36:40.241
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:36:40.241
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:36:40.241
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.ui 2 0 2022-04-22 11:36:40.758
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:36:40.758
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:36:40.758
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-22 11:36:40.758
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.jface 2 0 2022-04-22 11:36:42.247
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-22 11:36:42.247
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(com.tibco.amf.svar.editor.svarRename.command,Rename & update references for SVar,
+		Rename selected Substitution Variable & update the references in the workspace,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@141874c8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@147ea894,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-22 11:36:42.247
+!MESSAGE A conflict occurred for F1:
+Binding(F1,
+	ParameterizedCommand(Command(com.tibco.bw.core.design.process.editor.showHelpViewCommand,Reference Page,
+		Launch Help View,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38aed8ad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F1,
+	ParameterizedCommand(Command(com.tibco.xpd.core.help.default.command,Open Default TIBCO Help Content,
+		,
+		Category(com.tibco.xpd.core.help.command.category,TIBCO Help,TIBCO Help Commands.,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79c4454,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:36:57.178
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:36:57.196
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.xpd.fragments 4 0 2022-04-22 11:36:59.975
+!MESSAGE com.tibco.xpd.fragments.internal.FragmentsManager$5.run(FragmentsManager.java:787) FragmentsManager.initialize(): No root categories found!!!
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:37:00.052
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:37:00.053
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2022-04-22 11:37:47.298
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2022-04-22 11:37:47.300
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2022-04-22 11:37:47.493
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2022-04-22 11:37:47.495
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:03.936
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:03.947
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.879
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.886
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.892
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.893
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.901
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.902
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.906
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.907
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.910
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.911
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.914
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.916
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.939
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:14.940
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:15.630
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:15.632
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:15.657
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:15.658
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:15.711
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:38:15.712
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:03.375
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:03.379
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:03.473
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:03.478
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:03.602
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:03.603
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:03.661
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:03.664
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:03.718
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:03.719
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:04.557
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:04.560
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:04.719
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:04.721
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:44:05.821
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.HasOneStoreConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:44:05.822
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyAliasNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:44:05.823
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyPasswordNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:44:05.825
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.trust.editor.constraint" could not find target EMF type "TrustConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-22 11:44:06.889
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLServerConfiguration."
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:07.056
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:44:07.058
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.studio.maven.plugin 1 0 2022-04-22 11:44:07.210
+!MESSAGE Kind:9, Project:OrderMgmt
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:07.944
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:07.954
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:07.964
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:07.968
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.116
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.145
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.150
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.157
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.161
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.173
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.204
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.225
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.239
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.258
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.273
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.293
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.308
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.314
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.319
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.331
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.337
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.372
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.377
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.387
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.391
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.395
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.398
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.404
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.416
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.421
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.492
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.653
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.669
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.678
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.697
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.700
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.702
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.706
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.710
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.716
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.757
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.760
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.769
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.773
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.776
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.782
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.785
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.788
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.791
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.796
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.803
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.806
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.811
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.818
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.823
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.827
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.831
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.842
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.851
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.856
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.860
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.867
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.878
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.887
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.891
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.899
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.903
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.910
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.916
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.927
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.936
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.941
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:36.981
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.988
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:36.991
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-22 11:44:37.000
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:37.024
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:44:37.027
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-04-22 11:44:45.294
+!MESSAGE Failed to evaluate: IterateExpression [type=AND, children=[<test property="hasImplementation" plug-in activation: lazy/>]]
+!STACK 0
+org.eclipse.core.runtime.CoreException: No property tester contributes a property com.tibco.amf.tools.composite.editor.hasImplementation to type class org.eclipse.wst.xml.core.internal.document.ProcessingInstructionImpl
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:163)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.ui.internal.services.EvaluationService$1.changed(EvaluationService.java:79)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$3.changed(E4Application.java:789)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.setPart(SelectionAggregator.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:95)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activate(EclipseContext.java:683)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activateBranch(EclipseContext.java:692)
+	at org.eclipse.e4.ui.internal.workbench.PartActivationHistory.activate(PartActivationHistory.java:58)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:760)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:679)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:674)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3203)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:569)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:524)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:367)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:172)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:283)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:249)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:802)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:799)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1118)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:454)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4441)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4227)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3837)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-04-22 11:44:48.097
+!MESSAGE Failed to evaluate: IterateExpression [type=AND, children=[<test property="hasImplementation" plug-in activation: lazy/>]]
+!STACK 0
+org.eclipse.core.runtime.CoreException: No property tester contributes a property com.tibco.amf.tools.composite.editor.hasImplementation to type class org.eclipse.wst.xml.core.internal.document.ElementImpl
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:163)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.ui.internal.services.EvaluationService$1.changed(EvaluationService.java:79)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$3.changed(E4Application.java:789)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:219)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.ui.part.MultiPageSelectionProvider$1.run(MultiPageSelectionProvider.java:113)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.part.MultiPageSelectionProvider.fireEventChange(MultiPageSelectionProvider.java:110)
+	at org.eclipse.ui.part.MultiPageSelectionProvider.fireSelectionChanged(MultiPageSelectionProvider.java:93)
+	at org.eclipse.ui.part.MultiPageEditorSite.handleSelectionChanged(MultiPageEditorSite.java:495)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor$StructuredSelectionProvider$3.run(StructuredTextEditor.java:608)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor$StructuredSelectionProvider.fireSelectionChanged(StructuredTextEditor.java:605)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor$StructuredSelectionProvider.handleSelectionChanged(StructuredTextEditor.java:696)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor$StructuredSelectionProvider$1.selectionChanged(StructuredTextEditor.java:562)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.text.TextViewer.fireSelectionChanged(TextViewer.java:2621)
+	at org.eclipse.jface.text.TextViewer.selectionChanged(TextViewer.java:2600)
+	at org.eclipse.jface.text.TextViewer.setSelectedRange(TextViewer.java:2287)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.executeReplaceVisibleDocument(ProjectionViewer.java:758)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.replaceVisibleDocument(ProjectionViewer.java:743)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.reinitializeProjection(ProjectionViewer.java:1219)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.catchupWithProjectionAnnotationModel(ProjectionViewer.java:937)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.lambda$0(ProjectionViewer.java:891)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4179)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-04-22 11:44:57.877
+!MESSAGE Failed to evaluate: IterateExpression [type=AND, children=[<test property="hasImplementation" plug-in activation: lazy/>]]
+!STACK 0
+org.eclipse.core.runtime.CoreException: No property tester contributes a property com.tibco.amf.tools.composite.editor.hasImplementation to type class org.eclipse.wst.xml.core.internal.document.ProcessingInstructionImpl
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:163)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.ui.internal.services.EvaluationService$1.changed(EvaluationService.java:79)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$3.changed(E4Application.java:789)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.setPart(SelectionAggregator.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:95)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activate(EclipseContext.java:683)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activateBranch(EclipseContext.java:692)
+	at org.eclipse.e4.ui.internal.workbench.PartActivationHistory.activate(PartActivationHistory.java:58)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:760)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:679)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:674)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3203)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:569)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:524)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:367)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:172)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:283)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:249)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:802)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:799)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1118)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:454)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4441)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4227)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3837)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:48:27.079
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-22 11:48:27.085
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:48:27.237
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-22 11:48:27.256
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-04-22 13:24:31.571
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.equinox.internal.p2.core.Activator.stop() of bundle org.eclipse.equinox.p2.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:891)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1026)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1886)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1761)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:203)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:221)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: BundleContext is no longer valid org.eclipse.equinox.p2.repository_2.5.0.v20201013-0853 [757]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:1027)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:595)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:1057)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:32)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:497)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.remember(AbstractRepositoryManager.java:884)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.stop(AbstractRepositoryManager.java:1075)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.stop(ProvisioningAgent.java:138)
+	at org.eclipse.equinox.internal.p2.core.Activator.unregisterAgent(Activator.java:267)
+	at org.eclipse.equinox.internal.p2.core.Activator.stop(Activator.java:253)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:871)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:863)
+	... 13 more
+Root exception:
+java.lang.IllegalStateException: BundleContext is no longer valid org.eclipse.equinox.p2.repository_2.5.0.v20201013-0853 [757]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:1027)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:595)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:1057)
+	at org.eclipse.equinox.internal.p2.core.helpers.ServiceHelper.getService(ServiceHelper.java:32)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.getPreferences(AbstractRepositoryManager.java:497)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.remember(AbstractRepositoryManager.java:884)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.stop(AbstractRepositoryManager.java:1075)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.stop(ProvisioningAgent.java:138)
+	at org.eclipse.equinox.internal.p2.core.Activator.unregisterAgent(Activator.java:267)
+	at org.eclipse.equinox.internal.p2.core.Activator.stop(Activator.java:253)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:871)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:863)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1026)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1886)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1761)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:203)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:221)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+!SESSION 2022-04-26 16:28:24.115 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -showlocation
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.113
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.159
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.160
+!MESSAGE Both 'com.tibco.bw.it.model' and 'com.tibco.bw.it.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.163
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.165
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.169
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.174
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.176
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.205
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.209
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.212
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-04-26 16:28:55.214
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY org.eclipse.ui 2 0 2022-04-26 16:28:56.527
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-26 16:28:56.527
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-26 16:28:56.527
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-26 16:28:56.527
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.ui 2 0 2022-04-26 16:28:57.441
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-26 16:28:57.441
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-26 16:28:57.441
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-04-26 16:28:57.441
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.jface 2 0 2022-04-26 16:29:01.184
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-26 16:29:01.185
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(com.tibco.amf.svar.editor.svarRename.command,Rename & update references for SVar,
+		Rename selected Substitution Variable & update the references in the workspace,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53a645a2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c8d20bb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-26 16:29:01.185
+!MESSAGE A conflict occurred for F1:
+Binding(F1,
+	ParameterizedCommand(Command(com.tibco.bw.core.design.process.editor.showHelpViewCommand,Reference Page,
+		Launch Help View,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ead6e20,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F1,
+	ParameterizedCommand(Command(com.tibco.xpd.core.help.default.command,Open Default TIBCO Help Content,
+		,
+		Category(com.tibco.xpd.core.help.command.category,TIBCO Help,TIBCO Help Commands.,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59f56892,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:26.557
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:26.558
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.315
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.316
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.xpd.fragments 4 0 2022-04-26 16:29:39.353
+!MESSAGE com.tibco.xpd.fragments.internal.FragmentsManager$5.run(FragmentsManager.java:787) FragmentsManager.initialize(): No root categories found!!!
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.359
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.360
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.382
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.384
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.390
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.391
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.400
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.401
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.428
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.430
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.process.editor 1 0 2022-04-26 16:29:39.433
+!MESSAGE ".com.tibco.bw.rad/BWApplication.launch" file is synchronized.
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.468
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.469
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.478
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 16:29:39.479
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.process.editor 1 0 2022-04-26 16:29:39.488
+!MESSAGE ".com.tibco.bw.rad/runtime.target" file is synchronized.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-04-26 16:29:39.575
+!MESSAGE Failed to evaluate: IterateExpression [type=AND, children=[<test property="hasImplementation" plug-in activation: lazy/>]]
+!STACK 0
+org.eclipse.core.runtime.CoreException: No property tester contributes a property com.tibco.amf.tools.composite.editor.hasImplementation to type class org.eclipse.wst.xml.core.internal.document.ProcessingInstructionImpl
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:163)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.ui.internal.services.EvaluationService$1.changed(EvaluationService.java:79)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activate(EclipseContext.java:683)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activateBranch(EclipseContext.java:692)
+	at org.eclipse.e4.ui.internal.workbench.swt.ShellActivationListener$1.run(ShellActivationListener.java:99)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.ShellActivationListener.processWindow(ShellActivationListener.java:95)
+	at org.eclipse.e4.ui.internal.workbench.swt.ShellActivationListener.handleEvent(ShellActivationListener.java:65)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1108)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4436)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Shell.windowDidBecomeKey(Shell.java:2314)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6171)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:228)
+	at org.eclipse.swt.widgets.Widget.becomeKeyWindow(Widget.java:389)
+	at org.eclipse.swt.widgets.Shell.becomeKeyWindow(Shell.java:533)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5890)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2150)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2487)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6203)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5442)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5585)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3834)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-04-26 16:29:39.605
+!MESSAGE Failed to evaluate: IterateExpression [type=AND, children=[<test property="hasImplementation" plug-in activation: lazy/>]]
+!STACK 0
+org.eclipse.core.runtime.CoreException: No property tester contributes a property com.tibco.amf.tools.composite.editor.hasImplementation to type class org.eclipse.wst.xml.core.internal.document.ProcessingInstructionImpl
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:163)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activate(EclipseContext.java:683)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.activateBranch(EclipseContext.java:692)
+	at org.eclipse.e4.ui.internal.workbench.swt.ShellActivationListener$1.run(ShellActivationListener.java:99)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.ShellActivationListener.processWindow(ShellActivationListener.java:95)
+	at org.eclipse.e4.ui.internal.workbench.swt.ShellActivationListener.handleEvent(ShellActivationListener.java:65)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1108)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4436)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Shell.windowDidBecomeKey(Shell.java:2314)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6171)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:228)
+	at org.eclipse.swt.widgets.Widget.becomeKeyWindow(Widget.java:389)
+	at org.eclipse.swt.widgets.Shell.becomeKeyWindow(Shell.java:533)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5890)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2150)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2487)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6203)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5442)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5585)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3834)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.360
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.362
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.483
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.484
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.550
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.552
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.652
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.655
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.779
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.780
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.907
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:44.912
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-26 17:23:46.533
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.HasOneStoreConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-26 17:23:46.534
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyAliasNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-26 17:23:46.535
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyPasswordNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-26 17:23:46.537
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.trust.editor.constraint" could not find target EMF type "TrustConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-04-26 17:23:47.707
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLServerConfiguration."
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:50.359
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was acquired
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-04-26 17:23:50.360
+!MESSAGE com.tibco.bw.core.design.resource.refs.BWResourceChangeListernerImpl lock was released
+
+!ENTRY com.tibco.bw.studio.maven.plugin 1 0 2022-04-26 17:23:51.746
+!MESSAGE Kind:9, Project:OrderMgmt
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:23:53.461
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:23:53.469
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:23:53.475
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:23:53.479
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.021
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.025
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.029
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.033
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.036
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.039
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.043
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.045
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.048
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.052
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.055
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.059
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.062
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.064
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.069
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.073
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.079
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.082
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.107
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.111
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.114
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.124
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.127
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.130
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.138
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.141
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.144
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.147
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.150
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.153
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.157
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.159
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.162
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.165
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.168
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.172
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.178
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.180
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.183
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.187
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.190
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.193
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.196
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.198
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.203
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.206
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.209
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.211
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.214
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.217
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.221
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.224
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.227
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.229
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.233
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.236
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.238
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.242
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.245
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.247
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.253
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.256
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.259
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.264
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.267
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.271
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.276
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.278
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.281
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.284
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.288
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-04-26 17:24:08.290
+!MESSAGE Encryption setings are not available for project - OrderMgmt.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.308
+!MESSAGE Loading Docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-04-26 17:24:08.310
+!MESSAGE Loading default.substvar as a plaintext file.

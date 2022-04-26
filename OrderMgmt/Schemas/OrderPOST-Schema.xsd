@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="/T1589043479114Converted/JsonSchema" xmlns:tns="/T1589043479114Converted/JsonSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ShipDtl" type="tns:ShipDtl"/>
+    <xs:complexType name="ShipDtl">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="ShipType" type="xs:string"/>
+            <xs:element minOccurs="0" name="ShipAddress" type="xs:string"/>
+            <xs:element minOccurs="0" name="ShipCity" type="xs:string"/>
+            <xs:element minOccurs="0" name="ShipCountry" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="Response" type="tns:Response"/>
+    <xs:complexType name="Response">
+        <xs:sequence>
+            <xs:element name="OrderStatus" type="xs:string"/>
+            <xs:element minOccurs="0" name="Comments" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="Product" type="tns:Product"/>
+    <xs:complexType name="Product">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="ProdID" type="xs:string"/>
+            <xs:element minOccurs="0" name="Quantity" type="xs:decimal"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="OrderDtl" type="tns:OrderDtl"/>
+    <xs:complexType name="OrderDtl">
+        <xs:sequence>
+            <xs:element name="OrderID" type="xs:string"/>
+            <xs:element name="OrderDate" type="xs:dateTime"/>
+            <xs:element name="OrderAmt" type="xs:int"/>
+            <xs:element name="CustID" type="xs:string"/>
+            <xs:element name="CustEmail" type="xs:string"/>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="ProdDtl" type="tns:Product"/>
+            <xs:element minOccurs="0" name="ShipDtl" type="tns:ShipDtl"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

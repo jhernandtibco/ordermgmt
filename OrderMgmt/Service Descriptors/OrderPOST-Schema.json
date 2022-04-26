@@ -1,0 +1,58 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "TIBEDU BWC Order POST Request",
+    "description" : "TIBEDU BWCOrder POST"},
+  "host" : "localhost",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/bwcorder" : {
+      "post" : {
+        "description" : "",
+        "operationId" : "post-order",
+        "produces" : [ "application/json","application/xml" ],
+        "consumes" : [ "application/json","application/xml" ],
+        "parameters": [ {
+          "name" : "body",
+          "in" : "body",
+          "description" : "Post New Order Request",
+          "schema" : { "$ref" : "#/definitions/OrderDtl" },
+          "required" : true }  ], 
+        "responses" : { "200" : {
+              "description" : "Details returned",
+              "schema" : {"$ref" : "#/definitions/Response"
+                     }
+                 }
+             }
+         }
+    }
+  },
+  "definitions" : {
+    "OrderDtl" : {"type" : "object",
+      "required" : [ "OrderID", "OrderDate", "OrderAmt", "CustID", "CustEmail"],
+      "properties" : {
+        "OrderID":   {"type" : "string"},   
+        "OrderDate": {"type" : "string",  "format": "date-time"},
+        "OrderAmt":  {"type" : "integer", "format": "int32"},   
+        "CustID":    {"type" : "string"},
+        "CustEmail": {"type" : "string"},
+        "ProdDtl":   {"type" : "array", "items": {"$ref": "#/definitions/Product"}},
+        "ShipDtl":   {"$ref" : "#/definitions/ShipDtl"} } 
+    },
+    "Product" : {  "type" : "object",
+        "properties" : {"ProdID": {"type" : "string"}, "Quantity": {"type" : "number"} } 
+    },
+    "ShipDtl": { "type" : "object",
+       "properties" : {
+        "ShipType":    {"type" : "string"},  "ShipAddress": {"type" : "string"},  
+        "ShipCity":    {"type" : "string"},  "ShipCountry": {"type" : "string"} }  
+    },
+    "Response" : { "type" : "object",
+       "required" : [ "OrderStatus"],
+       "properties" : {"OrderStatus": {"type" :"string"},"Comments":{"type" :"string"}}
+    }
+  }
+}
+

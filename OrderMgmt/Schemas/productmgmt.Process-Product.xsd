@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="/T1589230133458Converted/JsonSchema" xmlns:tns="/T1589230133458Converted/JsonSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Element" type="tns:Element"/>
+    <xs:complexType name="Element">
+        <xs:sequence>
+            <xs:element name="ProductID" type="xs:string"/>
+            <xs:element name="Description" type="xs:string"/>
+            <xs:element name="QtyInStock" type="xs:integer"/>
+            <xs:element name="Price" type="xs:decimal"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="Product" type="tns:Product"/>
+    <xs:complexType name="Product">
+        <xs:sequence>
+            <xs:element name="ProductID" type="xs:string"/>
+            <xs:element name="QtySold" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

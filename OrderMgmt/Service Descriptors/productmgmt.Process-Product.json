@@ -1,0 +1,76 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Summary about the new REST service.",
+    "description" : "Summary about the new REST service."
+  },
+  "host" : "localhost:8380",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/product" : {
+      "patch" : {
+        "description" : "",
+        "operationId" : "patch-product",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "description" : "",
+          "schema" : {
+            "$ref" : "#/definitions/Product"
+          },
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "a Element to be returned",
+            "schema" : {
+              "$ref" : "#/definitions/Element"
+            }
+          },
+          "422" : {
+            "description" : "Invalid ProductID ",
+            "schema" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Element" : {
+      "type" : "object",
+      "required" : [ "Description", "Price", "ProductID", "QtyInStock" ],
+      "properties" : {
+        "ProductID" : {
+          "type" : "string"
+        },
+        "Description" : {
+          "type" : "string"
+        },
+        "QtyInStock" : {
+          "type" : "integer"
+        },
+        "Price" : {
+          "type" : "number"
+        }
+      }
+    },
+    "Product" : {
+      "type" : "object",
+      "required" : [ "QtySold", "ProductID" ],
+      "properties" : {
+        "ProductID" : {
+          "type" : "string"
+        },
+        "QtySold" : {
+          "type" : "integer"
+        }
+      }
+    }
+  }
+}
