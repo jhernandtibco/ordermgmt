@@ -77,10 +77,6 @@
               </build>
               <run>
                 <namingStrategy>alias</namingStrategy>
-                <ports>
-                  <port>${bwdocker.port.p0}</port>
-                  <port>${bwdocker.port.p1}</port>
-                </ports>
                 <envPropertyFile>${docker.env.property.file}</envPropertyFile>
               </run>
             </image>
@@ -90,7 +86,7 @@
       <plugin>
         <groupId>io.fabric8</groupId>
         <artifactId>fabric8-maven-plugin</artifactId>
-        <version>4.4.1</version>
+        <version>4.3.1</version>
         <configuration>
           <skip>false</skip>
         </configuration>

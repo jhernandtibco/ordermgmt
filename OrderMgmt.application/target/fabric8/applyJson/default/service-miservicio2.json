@@ -1,0 +1,96 @@
+{
+  "apiVersion" : "v1",
+  "kind" : "Service",
+  "metadata" : {
+    "annotations" : {
+      "fabric8.io/git-branch" : "master",
+      "fabric8.io/git-commit" : "734df069b23f07f48830bd34e940f767be7d0249",
+      "fabric8.io/git-url" : "https://github.com/jhernandtibco/ordermgmt.git"
+    },
+    "creationTimestamp" : "2022-05-18T00:39:05Z",
+    "labels" : {
+      "app" : "OrderMgmt.application",
+      "container" : "mideployment2",
+      "expose" : "true",
+      "group" : "com.tibco.bw",
+      "project" : "mideployment",
+      "provider" : "fabric8",
+      "version" : "1.0.0-SNAPSHOT"
+    },
+    "managedFields" : [ {
+      "apiVersion" : "v1",
+      "fieldsType" : "FieldsV1",
+      "fieldsV1" : {
+        "f:metadata" : {
+          "f:annotations" : {
+            "." : { },
+            "f:fabric8.io/git-branch" : { },
+            "f:fabric8.io/git-commit" : { },
+            "f:fabric8.io/git-url" : { }
+          },
+          "f:labels" : {
+            "." : { },
+            "f:app" : { },
+            "f:container" : { },
+            "f:expose" : { },
+            "f:group" : { },
+            "f:project" : { },
+            "f:provider" : { },
+            "f:version" : { }
+          }
+        },
+        "f:spec" : {
+          "f:allocateLoadBalancerNodePorts" : { },
+          "f:externalTrafficPolicy" : { },
+          "f:internalTrafficPolicy" : { },
+          "f:ports" : {
+            "." : { },
+            "k:{\"port\":80,\"protocol\":\"TCP\"}" : {
+              "." : { },
+              "f:port" : { },
+              "f:protocol" : { },
+              "f:targetPort" : { }
+            }
+          },
+          "f:selector" : { },
+          "f:sessionAffinity" : { },
+          "f:type" : { }
+        }
+      },
+      "manager" : "okhttp",
+      "operation" : "Update",
+      "time" : "2022-05-18T00:39:05Z"
+    } ],
+    "name" : "miservicio2",
+    "namespace" : "default",
+    "resourceVersion" : "6506746",
+    "uid" : "44c2c358-d997-4f70-b5a2-75b67e88dc75"
+  },
+  "spec" : {
+    "clusterIP" : "10.0.12.67",
+    "externalTrafficPolicy" : "Cluster",
+    "ports" : [ {
+      "nodePort" : 31656,
+      "port" : 80,
+      "protocol" : "TCP",
+      "targetPort" : 8890
+    } ],
+    "selector" : {
+      "app" : "OrderMgmt.application",
+      "container" : "mideployment2",
+      "group" : "com.tibco.bw",
+      "project" : "mideployment",
+      "provider" : "fabric8"
+    },
+    "sessionAffinity" : "None",
+    "type" : "LoadBalancer",
+    "clusterIPs" : [ "10.0.12.67" ],
+    "ipFamilies" : [ "IPv4" ],
+    "ipFamilyPolicy" : "SingleStack",
+    "allocateLoadBalancerNodePorts" : true,
+    "internalTrafficPolicy" : "Cluster"
+  },
+  "status" : {
+    "loadBalancer" : { }
+  }
+}

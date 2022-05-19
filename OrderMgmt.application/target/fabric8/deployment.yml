@@ -1,0 +1,27 @@
+metadata:
+  name: mideployment
+kind: Deployment
+spec:
+  template:
+    metadata:
+      name: mideployment
+      namespace: default
+      labels:
+        container: mideployment2
+        project: mideployment
+    spec:
+      containers:
+      - image: miazureregistry.azurecr.io/tibco/ordermgmt/v1
+        imagePullPolicy: Always
+        name: mideployment2
+        env:
+        - name: APP_CONFIG_PROFILE
+          value: docker
+        ports:
+        - containerPort: 8890
+  replicas: 2
+  selector:
+    container: mideployment2
+    provider: fabric8
+    project: mideployment
+    group: com.tibco.bw

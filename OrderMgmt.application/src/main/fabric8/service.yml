@@ -1,0 +1,20 @@
+metadata:
+  name: miservicio2
+  namespace: default
+  labels:
+    container: mideployment2
+    provider: fabric8
+    project: mideployment
+    group: com.tibco.bw
+kind: Service
+spec:
+  selector:
+    container: mideployment2
+    provider: fabric8
+    project: mideployment
+    group: com.tibco.bw
+  type: LoadBalancer
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8890

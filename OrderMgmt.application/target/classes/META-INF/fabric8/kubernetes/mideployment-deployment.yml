@@ -1,0 +1,49 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    fabric8.io/git-commit: 734df069b23f07f48830bd34e940f767be7d0249
+    fabric8.io/git-branch: master
+    fabric8.io/git-url: https://github.com/jhernandtibco/ordermgmt.git
+  labels:
+    app: OrderMgmt.application
+    provider: fabric8
+    version: 1.0.0-SNAPSHOT
+    group: com.tibco.bw
+  name: mideployment
+  namespace: default
+spec:
+  replicas: 2
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      app: OrderMgmt.application
+      provider: fabric8
+      group: com.tibco.bw
+  template:
+    metadata:
+      annotations:
+        fabric8.io/git-commit: 734df069b23f07f48830bd34e940f767be7d0249
+        fabric8.io/git-branch: master
+        fabric8.io/git-url: https://github.com/jhernandtibco/ordermgmt.git
+      labels:
+        container: mideployment2
+        project: mideployment
+        app: OrderMgmt.application
+        provider: fabric8
+        version: 1.0.0-SNAPSHOT
+        group: com.tibco.bw
+      name: mideployment
+      namespace: default
+    spec:
+      containers:
+      - env:
+        - name: APP_CONFIG_PROFILE
+          value: docker
+        image: miazureregistry.azurecr.io/tibco/ordermgmt/v1
+        imagePullPolicy: Always
+        name: mideployment2
+        ports:
+        - containerPort: 8890
+          name: ddi-tcp-3
