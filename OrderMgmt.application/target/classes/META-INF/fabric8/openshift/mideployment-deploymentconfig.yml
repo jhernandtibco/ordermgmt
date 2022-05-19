@@ -3,7 +3,7 @@ apiVersion: apps.openshift.io/v1
 kind: DeploymentConfig
 metadata:
   annotations:
-    fabric8.io/git-commit: 734df069b23f07f48830bd34e940f767be7d0249
+    fabric8.io/git-commit: c8bb88b3745c0aab8d8837a823de4669371deb8e
     fabric8.io/git-branch: master
     fabric8.io/git-url: https://github.com/jhernandtibco/ordermgmt.git
   labels:
@@ -27,11 +27,11 @@ spec:
   template:
     metadata:
       annotations:
-        fabric8.io/git-commit: 734df069b23f07f48830bd34e940f767be7d0249
+        fabric8.io/git-commit: c8bb88b3745c0aab8d8837a823de4669371deb8e
         fabric8.io/git-branch: master
         fabric8.io/git-url: https://github.com/jhernandtibco/ordermgmt.git
       labels:
-        container: mideployment2
+        container: mideployment
         project: mideployment
         app: OrderMgmt.application
         provider: fabric8
@@ -46,7 +46,7 @@ spec:
           value: docker
         image: miazureregistry.azurecr.io/tibco/ordermgmt/v1
         imagePullPolicy: Always
-        name: mideployment2
+        name: mideployment
         ports:
         - containerPort: 8890
           name: ddi-tcp-3

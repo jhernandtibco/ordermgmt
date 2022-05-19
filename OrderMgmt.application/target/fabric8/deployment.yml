@@ -7,13 +7,13 @@ spec:
       name: mideployment
       namespace: default
       labels:
-        container: mideployment2
+        container: mideployment
         project: mideployment
     spec:
       containers:
       - image: miazureregistry.azurecr.io/tibco/ordermgmt/v1
         imagePullPolicy: Always
-        name: mideployment2
+        name: mideployment
         env:
         - name: APP_CONFIG_PROFILE
           value: docker
@@ -21,7 +21,7 @@ spec:
         - containerPort: 8890
   replicas: 2
   selector:
-    container: mideployment2
+    container: mideployment
     provider: fabric8
     project: mideployment
     group: com.tibco.bw

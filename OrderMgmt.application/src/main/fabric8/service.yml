@@ -1,15 +1,15 @@
 metadata:
-  name: miservicio2
+  name: miservicio
   namespace: default
   labels:
-    container: mideployment2
+    container: mideployment
     provider: fabric8
     project: mideployment
     group: com.tibco.bw
 kind: Service
 spec:
   selector:
-    container: mideployment2
+    container: mideployment
     provider: fabric8
     project: mideployment
     group: com.tibco.bw

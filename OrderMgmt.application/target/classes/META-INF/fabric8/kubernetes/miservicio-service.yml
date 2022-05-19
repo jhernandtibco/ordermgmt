@@ -3,18 +3,18 @@ apiVersion: v1
 kind: Service
 metadata:
   annotations:
-    fabric8.io/git-commit: 734df069b23f07f48830bd34e940f767be7d0249
+    fabric8.io/git-commit: c8bb88b3745c0aab8d8837a823de4669371deb8e
     fabric8.io/git-branch: master
     fabric8.io/git-url: https://github.com/jhernandtibco/ordermgmt.git
   labels:
-    container: mideployment2
+    container: mideployment
     provider: fabric8
     project: mideployment
     group: com.tibco.bw
     expose: "true"
     app: OrderMgmt.application
     version: 1.0.0-SNAPSHOT
-  name: miservicio2
+  name: miservicio
   namespace: default
 spec:
   ports:
@@ -22,7 +22,7 @@ spec:
     protocol: TCP
     targetPort: 8890
   selector:
-    container: mideployment2
+    container: mideployment
     provider: fabric8
     project: mideployment
     group: com.tibco.bw
